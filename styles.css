@@ -1,0 +1,26 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.alert-box{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #ccc;
+    max-width: 800px;
+    width: 100%;
+}
+
+.alert-box > div:nth-child(1){
+    background-color: red;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
